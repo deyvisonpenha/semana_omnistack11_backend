@@ -1,0 +1,14 @@
+{
+  "name": "semana_omnistack11_backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/deyvisonpenha/semana_omnistack11_backend.git",
+  "author": "Deyvison Penha <deyvisonpenha1@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
