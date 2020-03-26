@@ -5,10 +5,15 @@
   "repository": "https://github.com/deyvisonpenha/semana_omnistack11_backend.git",
   "author": "Deyvison Penha <deyvisonpenha1@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "knex": "^0.20.13"
   },
   "devDependencies": {
-    "nodemon": "^2.0.2"
+    "nodemon": "^2.0.2",
+    "sqlite3": "^4.1.1"
   }
 }
