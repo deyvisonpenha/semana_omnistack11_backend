@@ -29,3 +29,6 @@ Pronto agora é só digitar `yarn dev` que seu backend já está configurado e r
 - Sqlite
 - Cors
 ### Frontend
+
+## Tips
+Deploy para heroku: Adicionei o arquivo Procfile e dentro dele `web: cd backend && yarn start` que direciona para a pasta backend
