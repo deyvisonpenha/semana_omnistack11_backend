@@ -17,3 +17,4 @@ Após clonar o projeto, no terminal digite o comando yarn install
 - Nodemon
 - Knex
 - Sqlite
+- Cors
