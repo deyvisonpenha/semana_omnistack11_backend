@@ -6,7 +6,8 @@
   "author": "Deyvison Penha <deyvisonpenha1@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon src/app.js"
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
