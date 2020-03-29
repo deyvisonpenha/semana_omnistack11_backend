@@ -30,6 +30,8 @@ Pronto agora é só digitar `yarn dev` que seu backend já está configurado e r
 - Cors
 ### Frontend
 
+axios client http vai fazer a conexão com o BD
+
 ## Tips
 Deploy para heroku: Adicionei o arquivo Procfile (na raiz do projeto) e dentro dele `web: cd backend && yarn start` que direciona para a pasta backend. 
 Após isso crie tambem o arquivo `.buildpacks` com o seguinte script `backend=https://github.com/heroku/heroku-buildpack-nodejs.git` , dá um `cd backend` e utliza o buildpack do NodeJs. 
