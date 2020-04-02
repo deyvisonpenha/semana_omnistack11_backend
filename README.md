@@ -34,6 +34,7 @@ $ yarn install
 OBS: é importante configurar corretamente a url do seu backend. Se estiver rodando localmente use:
 ```javascript
 \\ frontend/src/services/api.js
+
 const api = axios.create({
     baseURL: 'http://localhost:3333/'
 });
@@ -42,12 +43,19 @@ const api = axios.create({
 ``` bash
 $ npm install -g expo-cli
 $ cd mobile
-$ 
+$ yarn install
 ```
-Agora podemos rodar o app de 2 formas, se você estiver usando o VS Code no seu computador (forma local)
-``` bashe
+Agora podemos rodar o app de 2 formas, se estiver usando o VS Code no seu computador (forma local)
+``` bash
+$ expo start
+```
+Se estiver usando o GitPod ou alguma recurso in cloud, precisamos rodar o expo em modo "tunnel". Isso permitirá ler o QR code 
+e abrir seu aplicativo no expo sem estar na mesma rede do servidor.
+``` bash
+$ expo start --tunnel
+```
 
-## Dependencias
+## Dependencias e Recursos Utilizados
 ### Backend
 - Express
 - Nodemon
@@ -55,6 +63,10 @@ Agora podemos rodar o app de 2 formas, se você estiver usando o VS Code no seu 
 - Sqlite
 - Cors
 ### Frontend
+- React Router Dom
+- Axios
+- Use State
+- Use History
 
 axios client http vai fazer a conexão com o BD
 
