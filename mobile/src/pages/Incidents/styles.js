@@ -35,7 +35,7 @@ export default StyleSheet.create({
         lineHeight: 24,
         color: '#737380'
     },
-    
+
     incidentList: {
         marginTop: 32,
     },
@@ -44,7 +44,7 @@ export default StyleSheet.create({
         padding: 24,
         borderRadius: 8,
         backgroundColor: '#FFF',
-        margingBottom: 16,
+        marginBottom: 16
     },
 
     incidentProperty: {
@@ -54,7 +54,7 @@ export default StyleSheet.create({
     },
 
     incidentValue: {
-        marginTop: 8,
+        marginTop: 8, 
         fontSize: 15,
         marginBottom: 24,
         color: '#737380'
