@@ -1,7 +1,0 @@
-image:
-  file: .gitpod.Dockerfile
-ports:
-  - port: 19000-19002
-tasks:
-  - before: cd mobile && yarn install
-    command: yarn start
