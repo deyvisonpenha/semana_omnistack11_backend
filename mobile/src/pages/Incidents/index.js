@@ -8,9 +8,9 @@ import styles from './styles';
 export default function Incidents(){
   return(
       <View style={styles.container}>
-        <View styles={styles.header}>
+        <View style={styles.header}>
           <Image source={logoImag} />
-          <Text styles={styles.headerText}>
+          <Text style={styles.headerText}>
               Total de <Text style={styles.headerTextBold}>0 casos</Text>
           </Text>
         </View>
@@ -25,14 +25,14 @@ export default function Incidents(){
           showsVerticalScrollIndicator={false}
           renderItem={() => (
             <View Style={styles.incident}>
-              <Text styles={styles.incidentProperty}>ONG:</Text>
-              <Text styles={styles.incidentValue}>APAD</Text>
+              <Text style={styles.incidentProperty}>ONG:</Text>
+              <Text style={styles.incidentValue}>APAD</Text>
 
-              <Text styles={styles.incidentProperty}>CASO</Text>
-              <Text styles={styles.incidentValue}>Cadela atropelada</Text>
+              <Text style={styles.incidentProperty}>CASO</Text>
+              <Text style={styles.incidentValue}>Cadela atropelada</Text>
 
-              <Text styles={styles.incidentProperty}>VALOR:</Text>
-              <Text styles={styles.incidentValue}>R$ 120,00</Text>
+              <Text style={styles.incidentProperty}>VALOR:</Text>
+              <Text style={styles.incidentValue}>R$ 120,00</Text>
 
               <TouchableOpacity 
                   style={styles.detailsButton}
