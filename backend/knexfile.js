@@ -33,8 +33,8 @@ module.exports = {
     client: 'postgresql',
     connection: {
       database: 'my_db',
-      user:     'username', //  username
-      password: 'password' // password
+      user:     'username', 
+      password: 'password' 
     },
     pool: {
       min: 2,
